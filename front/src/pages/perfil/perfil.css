@@ -1,0 +1,23 @@
+.perfil_page{
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.perfil_page .perfil{
+  padding: 30px;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.perfil_buttons {
+  text-align: center;
+}

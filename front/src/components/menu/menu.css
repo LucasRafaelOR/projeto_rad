@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  margin-top: auto;
+  justify-content: flex-end;
+  background-color: white;
+  height: 50px;
+  width: 100vw;
+}
+
+.menu a {
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  border: none;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  cursor: pointer;
+}
